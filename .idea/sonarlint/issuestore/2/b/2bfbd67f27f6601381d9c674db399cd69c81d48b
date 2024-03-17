@@ -1,0 +1,20 @@
+
+
+java:S1192:"LDefine a constant instead of duplicating this literal "dormBuildId" 3 times.(Í¶ÉöúÿÿÿÿJ$fa8b700f-4784-4ddb-935c-1e93c188a77c
+
+java:S1192x"\Define a constant instead of duplicating this literal "/student.action?action=list" 5 times.(Òªê úÿÿÿÿJ$3a6ad54b-4f8d-4075-bcab-86099c1947c7
+†
+java:S1192O"JDefine a constant instead of duplicating this literal "mainRight" 3 times.(Ç¤‹ÂJ$1d2e915d-bf80-42dd-bdf9-23517d2c396a
+
+java:S1192P"NDefine a constant instead of duplicating this literal "/jsp/main.jsp" 3 times.(Ç†ÿÛüÿÿÿÿJ$faf37d2e-9272-4f91-b5b7-7bf9376b9097
+†
+java:S2259"DA "NullPointerException" could be thrown; "action" is nullable here.(Øìİ‰ùÿÿÿÿJ$a6ffe01b-81e5-463b-b072-9c19a66fb586
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(âíÇâJ$bd53b693-35ac-4ab8-9666-7a5ab1e23735
+k	java:S106`"+Replace this use of System.out by a logger.(˜á»˜üÿÿÿÿJ$8d8201e2-992d-4113-844a-39881507abeb
+k	java:S106d"+Replace this use of System.out by a logger.(Ó¶ÚúÿÿÿÿJ$acdaa673-2dc9-490c-8ff6-398d6e71e256
+f	java:S106n"+Replace this use of System.out by a logger.(—ƒèæJ$ae59e07b-7bb6-4712-97bf-8fd82888f650
+¨
+java:S2178"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(Øìİ‰ùÿÿÿÿJ$753fc599-67b5-466c-ab45-f694383c3626
+ƒ
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 105 to 64, Complexity from 21 to 14, Nesting Level from 3 to 2, Number of Variables from 31 to 6.(âíÇâJ$15d087f4-2491-4189-97be-2477533ef4da

@@ -1,0 +1,31 @@
+
+h
+java:S1192,"MDefine a constant instead of duplicating this literal "session_user" 4 times.(“é¸úÿÿÿÿ
+`
+java:S1192F"KDefine a constant instead of duplicating this literal "/index.jsp" 3 times.(ïª|
+k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ßƒ÷üÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü›ºÆıÿÿÿÿ
+—
+java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³Ö©
+V	java:S125'"<This block of commented-out lines of code should be removed.(çñÏ£şÿÿÿÿ
+@	java:S106Y"+Replace this use of System.out by a logger.(İÑĞ
+E	java:S106\"+Replace this use of System.out by a logger.(¯ÅÌÓùÿÿÿÿ
+E	java:S106]"+Replace this use of System.out by a logger.(€œ Àüÿÿÿÿ
+@	java:S106^"+Replace this use of System.out by a logger.(İæÙ–
+g
+java:S1871d"LThis branch's code block is the same as the block for the branch on line 95.(İ¹Ôáúÿÿÿÿ
+@	java:S106a"+Replace this use of System.out by a logger.(äçôº
+U
+java:S2441b":Make "User" serializable or don't store it in the session.(ïö›Âøÿÿÿÿ
+@	java:S106f"+Replace this use of System.out by a logger.(äçôº
+U
+java:S2441g":Make "User" serializable or don't store it in the session.(ïö›Âøÿÿÿÿ
+U
+java:S2441n":Make "User" serializable or don't store it in the session.(ïö›Âøÿÿÿÿ
+@	java:S106o"+Replace this use of System.out by a logger.(äçôº
+?	java:S106r"+Replace this use of System.out by a logger.(ºœ‹,
+Y
+java:S1128"CRemove this unused import 'javax.servlet.http.HttpServletResponse'.(Á¨ïë

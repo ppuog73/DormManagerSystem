@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/j2ee/dtd/web-jsptaglibrary_1_2.dtd">
+
+<taglib>
+<!--?????-->
+  <tlib-version>1.0</tlib-version>
+  <!--jsp???-->
+  <jsp-version>1.2</jsp-version>
+  <!--?????-->
+  <short-name>simple</short-name>
+  <!--jsp??????????????????????????-->
+  <uri>wdl-page-tag</uri>
+  <!--????-->
+  <description>
+    A simple tab library for the examples
+  </description>
+
+  <!-- A simple Tag -->
+  <!-- foo tag -->
+  <tag>
+    <name>pager</name>
+    <tag-class>com.dingli.utils.PageTag</tag-class>
+    <body-content>JSP</body-content>
+    <description>
+      Perform a server side action; uses 3 mandatory attributes
+    </description>
+
+    <attribute>
+      <name>totalNum</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+
+    <attribute>
+      <name>pageSize</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+
+    <attribute>
+      <name>pageIndex</name>
+
+      <required>true</required>
+
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+
+    <attribute>
+
+      <name>submitUrl</name>
+
+      <required>true</required>
+
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>

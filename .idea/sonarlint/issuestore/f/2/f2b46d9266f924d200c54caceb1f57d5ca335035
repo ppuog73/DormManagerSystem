@@ -1,0 +1,8 @@
+
+s
+java:S2589&"7Remove this expression which always evaluates to "true"(àŽ‘úJ$963273f0-5fe0-44b3-8666-4af2079d08f8
+~
+java:S1854>"=Remove this useless assignment to local variable "dormBuild".(à°„ðþÿÿÿÿJ$9e54c36c-a3e7-434a-a7a9-17e2c2eeb364
+o
+java:S1481>".Remove this unused "dormBuild" local variable.(à°„ðþÿÿÿÿJ$9b0cbf60-8699-4c35-a33b-cf3f343de88f
+|	java:S125G"<This block of commented-out lines of code should be removed.(à·Ó…üÿÿÿÿJ$e25609b2-0a74-40de-b301-a6b51c6f0503

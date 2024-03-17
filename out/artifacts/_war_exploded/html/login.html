@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宿舍管理系统登录</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script type="text/javascript" src="../bootstrap/js/jQuery.js"></script>
+    <script type="text/javascript">
+        function checkForm() {
+            //获取用户名和密码
+            let stuCode=document.getElementById('stuCode').value;
+            let passWord=document.getElementById('password').value;
+            if(stuCode == null || stuCode === ""){
+                document.getElementById("error").innerText="学号不能为空";
+                return false;
+            }
+            if(passWord == null || passWord === ""){
+                document.getElementById("error").innerText="密码不能为空";
+                return false;
+            }
+            return true;
+        }
+        $(document).ready(function () {
+            $("#login").addClass("active")
+        });
+    </script>
+</head>
+<!--登录页面-->
+
+<body>
+
+<div class="container">
+    <form action="/login" name="myForm" class="form-signin" method="post" onsubmit="return checkForm()">
+        <h2 class="form-signin-heading" style="text-align: center"><font color="gray" size="6">宿舍管理系统</font></h2>
+        <input type="hidden" value="submit" name="action">
+        <!--input-block-lecel类-->
+        <input type="text" name="stuCode" id="stuCode" placeholder="学号..." class="input-block-level">
+        <input type="password" name="password" id="password" placeholder="密码..." class="input-block-level">
+        <label class="checkbox">
+        <div id="remember" name="remember" typeof="checkbox" value="remember-me" style="margin-right: 10px">
+            <input type="checkbox" style="margin-right: 10px">记住我&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <font id="error" color="red"></font>
+        </label>
+        <div style="text-align: center">
+            <button type="submit" class="btn btn-large btn-primary">登录</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <p align="center" style="padding-top: 15px">版权所有 2020 ddd</p>
+    </form>
+</div>
+</body>
+</html>

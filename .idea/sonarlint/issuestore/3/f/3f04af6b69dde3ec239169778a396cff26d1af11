@@ -1,0 +1,33 @@
+
+b
+java:S11920"LDefine a constant instead of duplicating this literal "dormBuildId" 8 times.(¸â«
+^
+java:S1192+"IDefine a constant instead of duplicating this literal "passWord" 7 times.(Âª¢~
+_
+java:S1192,"IDefine a constant instead of duplicating this literal "stu_code" 7 times.(€¤Ø“
+^
+java:S11921"HDefine a constant instead of duplicating this literal "role_id" 7 times.(³ÿ“¯
+`
+java:S1192-"JDefine a constant instead of duplicating this literal "dorm_Code" 7 times.(ÈÑí‡
+_
+java:S11923"IDefine a constant instead of duplicating this literal "disabled" 7 times.(î½·
+e
+java:S11922"ODefine a constant instead of duplicating this literal "create_user_id" 7 times.(Óº¶ç
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õßİ¥úÿÿÿÿ
+g	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öƒ·Ø
+f	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åêå-
+l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì±ØÏùÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì±ØÏùÿÿÿÿ
+W	java:S125×"<This block of commented-out lines of code should be removed.(ä˜ ÿÿÿÿÿ
+?
+java:S1481ì"(Remove this unused "SQL" local variable.(öƒ·Ø
+B
+java:S1168’"+Return an empty collection instead of null.(¥¹ï
+>
+java:S1481Ÿ"(Remove this unused "SQL" local variable.(åêå-
+D
+java:S1481İ"(Remove this unused "SQL" local variable.(Ì±ØÏùÿÿÿÿ
+D
+java:S1481"(Remove this unused "SQL" local variable.(Ì±ØÏùÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(Œ˜È€
+A	java:S106Á"+Replace this use of System.out by a logger.(Ó…ÿ
